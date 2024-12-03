@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:max-w-[86%] text-[#1A1919] mx-auto pb-24 pt-32 max-w-[72rem] px-6 grid sm:grid-cols-2 gap-10">
+  <div class="xl:max-w-[86%] text-[#1A1919] mx-auto sm:pb-24 sm:pt-32 pt-2 max-w-[72rem] px-6 grid sm:grid-cols-2 gap-10">
     <div class="h-full 2xl:ml-20 md:order-2 md:py-0 sm:py-5 order-2 w-fit flex flex-col justify-center">
       <Animate :time="0.2">
         <h1 class="sm:text-[7vw] text-4xl md:text-[45px] xl:text-[65px] leading-none">

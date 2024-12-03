@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white pb-20 xl:max-w-[86%] max-w-[72rem] xl:px-0 px-6 gap-4 mx-auto">
+  <div class="bg-white pb-12 sm:pb-20 xl:max-w-[86%] max-w-[72rem] xl:px-0 px-6 gap-4 mx-auto">
     <h1 class="text-4xl sm:text-[7vw] md:text-[5.2vw] xl:text-[68px] leading-none">
       Meet our fleet
     </h1>
@@ -8,30 +8,24 @@
     <div class="mt-10 hidden md:grid md:grid-cols-2 lg:grid-cols-3 xl:mt-20 items-start gap-4 md:gap-6 xl:gap-10">
       <AnimateLeft :time="0.3" x="-80%">
         <MeetFleetCard
-          mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_631,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1727789784/2T6A9317_edited/2T6A9317_edited.png?_i=AA"
+          mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_848,h_778/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1729769700/NEW%20website/Shoot%20US%202023%20-%20WEB/CROPPED2%20DSC_2686.2_471395/CROPPED2%20DSC_2686.2_471395.png?_i=AA"
           heading="Urban Arrow Family"
           :hasGradient="true"
         />
       </AnimateLeft>
       <AnimateLeft :time="0.2" x="-80%">
         <MeetFleetCard
-          mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_299,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1719831503/NEW%20website/FamilyNext%20Lifestyle/LR/Urban_Arrow_FamilyNext_Green_635/Urban_Arrow_FamilyNext_Green_635.png?_i=AA"
+          mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_848,h_1247/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1702979550/NEW%20website/Shoot%20US%202023%20-%20WEB/DSC_9643_small/DSC_9643_small.jpg?_i=AA"
           heading="Urban Arrow Family Smart System"
           :hasGradient="false"
         />
       </AnimateLeft>
-      <AnimateLeft :time="0.1" x="-80%">
-        <MeetFleetCard
-          mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_299,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1635867384/Shorty/Standard/Lifestyle/_BT28036_FINAL/_BT28036_FINAL.jpg?_i=AA"
-          heading="Test Arrow"
-          :hasGradient="false"
-        />
-      </AnimateLeft>
+     
     </div>
 
     <!-- Mobile Slider -->
     <Splide
-      class="md:hidden mt-20 flex"
+      class="md:hidden mt-10 sm:mt-20 flex"
       ref="splideRef"
       :options="splideOptions"
       @move="handleSplideMove"
@@ -40,7 +34,7 @@
       <SplideSlide>
         <AnimateLeft :time="0.3" x="-80%">
           <MeetFleetCard
-            mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_631,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1727789784/2T6A9317_edited/2T6A9317_edited.png?_i=AA"
+            mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_848,h_778/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1729769700/NEW%20website/Shoot%20US%202023%20-%20WEB/CROPPED2%20DSC_2686.2_471395/CROPPED2%20DSC_2686.2_471395.png?_i=AA"
             heading="Urban Arrow Family"
             :hasGradient="true"
           />
@@ -49,21 +43,13 @@
       <SplideSlide>
         <AnimateLeft :time="0.2" x="-80%">
           <MeetFleetCard
-            mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_631,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1727789784/2T6A9317_edited/2T6A9317_edited.png?_i=AA"
+            mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_848,h_1247/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1702979550/NEW%20website/Shoot%20US%202023%20-%20WEB/DSC_9643_small/DSC_9643_small.jpg?_i=AA"
             heading="Urban Arrow Family Smart System"
             :hasGradient="false"
           />
         </AnimateLeft>
       </SplideSlide>
-      <SplideSlide>
-        <AnimateLeft :time="0.1" x="-80%">
-          <MeetFleetCard
-             mainImg="https://cloudinary.pondigital.solutions/urbanarrow/images/c_scale,w_448,h_631,dpr_2/ar_0.65,c_fill/w_auto,c_fill/f_auto,q_auto/v1727789784/2T6A9317_edited/2T6A9317_edited.png?_i=AA"
-            heading="Test Arrow"
-            :hasGradient="false"
-          />
-        </AnimateLeft>
-      </SplideSlide>
+     
     </Splide>
 
     <!-- Navigation Buttons -->

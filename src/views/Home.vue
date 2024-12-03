@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="w-full overflow-x-hidden">
     <Hero />
     <TryIt />
     <MeetFleet />
@@ -13,6 +13,7 @@
   </template>
   
   <script setup>
+  import '../style.css'
   import AnimateLeft from '../components/AnimateLeft.vue'
   import Hero from '../components/Hero.vue'
   import TryIt from '../components/TryIt.vue'

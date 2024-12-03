@@ -3,7 +3,7 @@
     href="#"
     class="lg:w-[37vw] sm:w-[38vw] md:w-[45vw] w-[100vw] 2xl:w-[33%] group cursor-pointer h-full overflow-hidden"
   >
-    <div class="h-[47vh] md:h-[80vw] xl:h-[75vh] w-full relative flex flex-col justify-between overflow-hidden rounded-2xl">
+    <div class="h-[60vh] md:h-[80vw] xl:h-[75vh] w-full relative flex flex-col justify-between overflow-hidden rounded-2xl">
       <!-- Image Layer -->
       <div class="w-full h-full absolute top-0 left-0 z-[2]">
         <img
@@ -15,7 +15,7 @@
 
       <!-- Text Layer -->
       <div
-        class="sm:px-6 px-3 text-[6vw] button-font sm:text-[4vw] md:text-[2.5vw] text-white xl:text-4xl leading-none pb-24 pt-6 z-[4] relative"
+        class="sm:px-6 px-3 text-[6vw] font-semibold button-font sm:text-[4vw] md:text-[2.5vw] text-white xl:text-[32px] leading-none pb-24 pt-6 z-[4] relative"
         :style="gradientStyle"
       >
         {{ heading }}
