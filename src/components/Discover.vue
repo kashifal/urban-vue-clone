@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-6 pb-32">
+  <div class="pt-6 pb-16 sm:pb-32">
     <div class="xl:max-w-[86%] text-[#000] mx-auto pt-16 md:pt-20 max-w-[72rem] px-6">
       <div class="flex items-center justify-between gap-2">
         <h1 class="text-[7vw] md:text-[45px] xl:text-[63px] leading-none">
@@ -37,9 +37,9 @@
         </div>
       </div>
 
-      <div class="mt-14 flex justify-between md:justify-end"></div>
+      <div class="mt-20 flex justify-between md:justify-end"></div>
     </div>
-    <div :class="[isBeginning ? 'xl:pl-36' : 'pl-0', 'pl-0']">
+    <div :class="[isBeginning ? 'xl:pl-36' : 'pl-6', 'pl-6']">
       <Splide
         ref="splideRef"
         :options="splideOptions"
@@ -51,7 +51,7 @@
             :time="index === 0 ? 0.3 : index === 1 ? 0.2 : 0.1"
             x="-80%"
           >
-            <div class="bg-[#FAFAF0] min-h-[60vh] flex flex-col justify-between cursor-pointer text-[#1A1919] overflow-hidden rounded-xl">
+            <div class="bg-[#FAFAF0] min-h-[60vh] h-[60vh] flex flex-col justify-between cursor-pointer text-[#1A1919] overflow-hidden rounded-xl">
               <img
                 class="h-[28vh] w-full object-cover"
                 :src="card.image"

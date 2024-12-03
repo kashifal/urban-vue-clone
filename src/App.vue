@@ -10,7 +10,7 @@ const pageKey = computed(() => route.path)
 </script>
 
 <template>
-  <div>
+  <div class="w-full overflow-x-hidden">
     <Header /> 
     <router-view></router-view>
 

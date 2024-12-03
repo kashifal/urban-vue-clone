@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#F0E600] min-h-[20vw] h-full xl:min-h-[55vw]">
-    <div class="xl:max-w-[86%] text-[#000] mx-auto py-16 md:py-32 max-w-[72rem] px-6">
+    <div class="xl:max-w-[86%] text-[#000] mx-auto py-12 sm:py-16 md:py-32 max-w-[72rem] px-6">
       <div class="flex items-center justify-between gap-2">
         <h1 class="sm:text-[7vw] text-4xl md:text-[45px] xl:text-[65px] leading-none">
           We've got stories to tell
